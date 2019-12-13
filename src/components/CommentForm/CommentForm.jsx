@@ -8,8 +8,7 @@ import { postComment } from '../../utils/helpers.js';
 
 class NormalCommentForm extends React.Component {
   state = {
-    API_KEY: "appdev, ih^ZWK06%Y",
-    authFailure: false,
+    authFailure: false
   }
 
   handleSubmit = e => {
