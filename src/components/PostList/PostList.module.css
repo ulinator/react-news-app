@@ -1,0 +1,68 @@
+.Wrapper {
+  margin: 5px auto;
+  width: 100%;
+  max-width: 800px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #cacaca;
+}
+
+.Post {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Meta {
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+}
+
+.Title {
+  font-size: 1rem;
+}
+
+.Header {
+  text-align: left;
+  flex-grow: 1;
+  align-self: flex-start;
+  padding: 10px 30px;
+}
+
+.Button {
+  margin-right: 5px;
+}
+
+.Button.open {
+  outline: 1px solid purple;
+}
+
+.Button.close {
+  width: auto;
+  margin-top: 40px;
+  margin-left: auto;
+}
+
+.Picture {
+  order: -1;
+  width: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  min-width: 150px;
+}
+
+.Content {
+  display: flex;
+  height: 0;
+
+  overflow: hidden;
+  text-align: left;
+  transition: height 0.3s ease;
+}
+
+.Content.open {
+  height: 85px;
+}

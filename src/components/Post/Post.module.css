@@ -1,0 +1,41 @@
+.Post {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    border: 1px solid #cacaca;
+}
+
+.Post-meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 100%;
+}
+
+.Post-title {
+    text-align: left;
+}
+
+.Post.ListItem {
+    flex-direction: row;
+    align-items: center;
+}
+
+.Post.GridItem {
+    flex-direction: column;
+    justify-content: space-between;
+
+    max-width: 23%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+}
+
+.Post.GridItem .Post-title {
+    font-size: 1rem;
+}
+

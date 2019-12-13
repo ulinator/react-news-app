@@ -1,0 +1,19 @@
+.Wrapper {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.Filters {
+  display: flex;
+}
+
+.ViewSelect {
+  width: 100px;
+  margin-left: auto;
+}
+
+.Pagination {
+  display: flex;
+  margin-right: auto;
+  margin-bottom: 50px;
+}

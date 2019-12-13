@@ -1,0 +1,39 @@
+.Wrapper {
+  display: block;
+  max-width: 46%;
+
+  margin: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #cacaca;
+}
+
+.Post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.Title {
+  text-align: left;
+  font-size: 1rem;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 480px) {
+  .Wrapper {
+    max-width: 31%;
+  }
+}
+
+@media (min-width: 600px) {
+  .Wrapper {
+    max-width: 23%;
+  }
+}

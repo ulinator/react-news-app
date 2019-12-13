@@ -1,0 +1,12 @@
+.Header {
+  border-bottom: 1px solid #cacaca;
+}
+
+.Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 800px;
+  margin: 10px auto;
+}

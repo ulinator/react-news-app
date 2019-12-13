@@ -1,0 +1,13 @@
+.Form {
+  min-width: 280px;
+}
+
+.Controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Checkbox {
+  display: block;
+  text-align: left;
+}

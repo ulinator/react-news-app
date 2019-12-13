@@ -1,0 +1,21 @@
+.Wrapper {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Name {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.Description {
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.Picture {
+  min-width: 150px;
+}

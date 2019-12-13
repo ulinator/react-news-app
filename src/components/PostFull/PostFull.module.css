@@ -1,0 +1,27 @@
+.Post {
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.PostMeta {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.Content {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.CommentsList {
+  margin: 30px auto;
+  padding-left: 0;
+  text-align: left;
+  list-style-type: none;
+}
+
+.Icon {
+  width: 30px;
+  margin-right: 20px;
+}

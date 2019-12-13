@@ -1,0 +1,19 @@
+.PostList {
+    margin: 15px auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.PostList.List {
+    flex-direction: column;
+}
+
+.PostList.Grid {
+    flex-direction: row;
+}
+
+.Post {
+    max-width: 300px;
+}
